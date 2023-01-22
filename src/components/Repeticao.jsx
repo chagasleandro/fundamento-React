@@ -6,7 +6,9 @@ export default props => {
 
     function getProductsListItem() {
         return products.map(prod => {
-            return <li>{prod.id} - {prod.name} = R$ {prod.preco}</li>
+            return <li key={prod.id}>
+                {prod.id} - {prod.name} = R$ {prod.preco}
+                </li>
         })
     }
 

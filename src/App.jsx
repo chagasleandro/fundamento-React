@@ -30,7 +30,5 @@ export default (props) => (
         <Card titulo="#01 - Primeiro Componente">
             <Primeiro />
         </Card>
-    
-        {/*<Primeiro />*/}
     </div>
 );

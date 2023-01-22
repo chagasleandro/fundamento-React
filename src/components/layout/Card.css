@@ -13,7 +13,7 @@
 
 .Card .Conteudo {
     flex: 1;
-    padding: 15px;
+    padding: 15px 0px;
     color: black;
 }
 .Card .Footer {
